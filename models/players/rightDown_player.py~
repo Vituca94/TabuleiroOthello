@@ -11,7 +11,7 @@ class rightDownPlayer:
 		maxDown = 0
 		retmove = None
 		for move in moves:
-			#print move
+			print move
 			rightMove = move.y
 			downMove = move.x
 			if rightMove > maxRight :

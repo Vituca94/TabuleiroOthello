@@ -3,6 +3,7 @@ from models.players.corner_player import CornerPlayer
 from models.players.rightDown_player import rightDownPlayer
 from models.players.minMax_player import MinMaxPlayer
 from models.players.boardValue_player import BoardValuePlayer
+from models.players.mobility_player import MobilityPlayer
 from views.console_board_view import ConsoleBoardView
 from models.board import Board
 
